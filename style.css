@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.nevbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.nevbar-logo{
+    height: 50px;
+    width: 100px; 
+}
+.logo{
+    height: 50px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+/** box2 **/
+  
+
+.location{
+    display: flex;
+}
+#p-dliver{
+    margin-left: 12px;
+    color: #cccccc;
+    font-size: 0.8rem;
+}
+#p-bangladesh{
+    color: white;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/**box3**/
+
+
+.nev-search{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 620px;
+    background-color: pink;
+    border-radius: 4px;
+}
+.nev-search:hover{
+    border: 2px solid orange;
+}
+.search-input{
+    width: 100%;
+    border: none;
+
+}
+.search-select{
+   width: 52px;
+   border-top-left-radius:4px;
+   border-bottom-left-radius:4px;
+   text-align: center;
+   background-color:#E6E6E6 ;
+   border: none;
+}
+.search-icon{
+    width: 45px;
+    border: none;
+    color: black;
+    background-color: rgb(235, 146, 44);
+    font-size: 1.2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+}
+/**box4**/
+
+span{
+    color: white;
+    font-size: 0.8rem;
+}    
+.nev-p{
+    color: white;
+    font-weight: 700;
+}
+/**box5**/
+.nev-cart i{
+    color: white;
+    font-size: 29px;
+}
+.nev-cart{
+    color: white;
+    font-weight: 700;
+}
+/**deals**/
+.nev-deals{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.deals{
+    display: flex;
+    width: 70%;
+}
+p{
+    
+    color: white;
+    margin-left: 15px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.All{
+    color: white;
+    font-weight: 700;
+/**hero-section**/
+}
+.hero-section{
+    height: 500px;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+}
+/**shop-section**/
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-section{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.footer-sign{
+   height: 150px; 
+  
+   
+   
+  
+}
+.footer-innar{
+    height: 130px;
+    margin-top: 40px;
+    border: 0.5px solid rgb(207, 207, 207);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+    
+    
+}
+.innar-p{
+    
+    color: black;
+    font-weight: normal;
+   
+   
+}
+.innar-p2{
+    color: black;
+    font-weight: normal;
+    margin-top: 8px; 
+    font-size: 0.80rem;
+}
+.innar-sign{
+    
+    color: black;
+    
+    
+}
+.sign{
+    height: 28px;
+    width: 230px;
+    background-color: rgb(231, 163, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border-radius:5px ;
+}
+.innar-a{
+    color: black;
+    text-decoration:none ;
+}
+.back{
+    height: 50px;
+    color: white;
+    background-color: #414450;
+    font-size: 0.80rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display:block;
+    font-size: 0.85;
+    margin-top: 10px;
+    color:#dddddd ;
+    
+}
+.footer-last{
+    height:60px ;
+    background-color:#16202b ;
+    color: white;
+    font-size: 0.80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
